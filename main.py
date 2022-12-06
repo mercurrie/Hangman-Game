@@ -1,5 +1,14 @@
 import random
 
+print(''' 
+ _                                             
+| |                                            
+| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
+| '_ \ / _` | '_ \ / _` | '_ ` _ \ / _` | '_ \ 
+| | | | (_| | | | | (_| | | | | | | (_| | | | |
+|_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
+                    __/ |                      
+                   |___/    ''')
 # list of ASCII Art
 stages = ['''
   +---+
@@ -63,7 +72,6 @@ word_list = ["aardvark", "baboon", "camel", "dog", "cat", "lizard", "dolphin"]
 # Randomly pick word from list
 chosenWord = random.choice(word_list)
 
-print('Welcome!! Up for a game of Hangman?\n')
 print(stages[6])
 
 # create empty list to display cells for word
